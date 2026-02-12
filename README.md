@@ -4,11 +4,11 @@ This project implements an **image classifier** using a *convolutional neural ne
 
 ## Features
 
-* \ud83d\udce6 **Self-contained dataset loading** – the script automatically downloads the CIFAR-10 dataset from PyTorch's `torchvision.datasets` if it is not present on disk.
-* \ud83e\udd20 **Customizable CNN architecture** – defined in `model.py` and easily adjustable for experimenting with different network depths and layer configurations.
-* \ud83d\udd01 **Training loop with progress reporting** – includes a clean training loop with periodic loss/accuracy printing so you can track performance during training.
-* \ud83d\udcdd **Validation and test evaluation** – after each epoch the model is evaluated on the validation set, and final accuracy is reported on the test set.
-* \ud83d\udcbe **Model checkpointing** – optionally save your trained model to a file for later re-use or inference.
+* **Self-contained dataset loading** – the script automatically downloads the CIFAR-10 dataset from PyTorch's `torchvision.datasets` if it is not present on disk.
+* **Customizable CNN architecture** – defined in `model.py` and easily adjustable for experimenting with different network depths and layer configurations.
+* **Training loop with progress reporting** – includes a clean training loop with periodic loss/accuracy printing so you can track performance during training.
+* **Validation and test evaluation** – after each epoch the model is evaluated on the validation set, and final accuracy is reported on the test set.
+* **Model checkpointing** – optionally save your trained model to a file for later re-use or inference.
 
 ## Requirements
 
@@ -53,10 +53,10 @@ ai_project/
 
 This project is intentionally modular to encourage experimentation.  Here are a few ideas for extensions:
 
-* \ud83d\udd0d **Data augmentation:** Improve generalization by adding random cropping, flips and color jitter to the training transforms.
-* \ud83d\udd27 **Hyperparameter tuning:** Adjust the number of epochs, batch size, optimizer (e.g. Adam, SGD with momentum) or learning rate schedule.
-* \ud83e\udde9 **Deeper architectures:** Replace the provided CNN with a deeper network (e.g. ResNet or DenseNet) to achieve higher accuracy.
-* \ud83d\udcca **Visualization:** Plot training and validation curves using Matplotlib or TensorBoard for better insight into the learning process.
-* \ud83d\ude80 **Transfer learning:** Fine-tune a pre-trained model from the torchvision model zoo on CIFAR-10.
+* **Data augmentation:** Improve generalization by adding random cropping, flips and color jitter to the training transforms.
+* **Hyperparameter tuning:** Adjust the number of epochs, batch size, optimizer (e.g. Adam, SGD with momentum) or learning rate schedule.
+* **Deeper architectures:** Replace the provided CNN with a deeper network (e.g. ResNet or DenseNet) to achieve higher accuracy.
+* **Visualization:** Plot training and validation curves using Matplotlib or TensorBoard for better insight into the learning process.
+* **Transfer learning:** Fine-tune a pre-trained model from the torchvision model zoo on CIFAR-10.
 
 Feel free to fork this repository and build upon it for your own research or coursework.  Pull requests are welcome!
